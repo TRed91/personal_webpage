@@ -1,14 +1,16 @@
 import AboutmeCard from "./components/aboutme/AboutmeCard.tsx";
 import Footer from "./components/footer/footer.tsx";
+import Header from "./components/header/Header.tsx";
 import './App.css'
 
 function App() {
 
   return (
     <>
-        <body>
+        <Header />
+        <main>
             <AboutmeCard />
-        </body>
+        </main>
         <Footer />
     </>
   )
