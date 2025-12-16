@@ -7,11 +7,29 @@
 
     padding: 20px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #d2d2d2;
+}
+
+.card ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card-img{
-    height: 200px;
-    width: 300px;
+    display: block;
+    max-height: 200px;
+    max-width: 360px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
 }
 
 .icoin {

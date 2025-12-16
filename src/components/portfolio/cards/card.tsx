@@ -12,8 +12,13 @@ function Card({card}: PortfolioCardProps) {
                     <li>
                         <a href={card.github} target="_blank">
                             <img src="src/assets/github-142-svgrepo-com.svg" alt={`${card.title} github link`} className="icon" />
+                            Github
                         </a>
                     </li>
+                    {card.link.length > 0 ? <li>
+                        <a href={card.link} target="_blank">Live link</a>
+                    </li> : null}
+
                 </ul>
             </div>
         </>
