@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    background: #e7e4dc;
 }
 
 .pageHeader_links {

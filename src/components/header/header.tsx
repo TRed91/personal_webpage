@@ -3,13 +3,13 @@ import './header.css'
 function Header() {
     return (
         <>
-            <header className="pageHeader">
-                <h2 className={"highlight"}>Thomas' Landing Page</h2>
+            <div className="pageHeader">
+                <a href="/"><h2 className={"highlight"}>Thomas' Landing Page</h2></a>
                 <ul className="pageHeader_links">
-                    <li>Portfolio</li>
+                    <li><a href="portfolio">Portfolio</a></li>
                     <li>Blog</li>
                 </ul>
-            </header>
+            </div>
         </>
     )
 }

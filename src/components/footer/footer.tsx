@@ -2,8 +2,7 @@ import './footer.css'
 
 function Footer () {
     return (
-        <footer>
-            <h4>Contact Me</h4>
+        <div className="footer">
             <ul>
                 <li>
                     <a href="https://github.com/TRed91">
@@ -24,7 +23,7 @@ function Footer () {
                     </a>
                 </li>
             </ul>
-        </footer>
+        </div>
     )
 }
 

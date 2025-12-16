@@ -1,0 +1,11 @@
+.portfolio-container {
+    overflow-y: auto;
+    padding-bottom: 10rem;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}

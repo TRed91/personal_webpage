@@ -1,17 +1,21 @@
-import AboutmeCard from "./components/aboutme/AboutmeCard.tsx";
 import Footer from "./components/footer/footer.tsx";
-import Header from "./components/header/Header.tsx";
+import Header from "./components/header/header.tsx";
+import {Outlet} from "react-router-dom";
 import './App.css'
 
 function App() {
 
   return (
     <>
-        <Header />
+        <header>
+            <Header />
+        </header>
         <main>
-            <AboutmeCard />
+            <Outlet />
         </main>
-        <Footer />
+        <footer>
+            <Footer />
+        </footer>
     </>
   )
 }
