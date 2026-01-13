@@ -4,7 +4,7 @@ import PortfolioPage from "./components/portfolio/portfolio.tsx";
 
 const routes = [
     {
-        path: '/',
+        path: 'personal_webpage',
         element: <App/>,
         children: [
             {index: true, element: <AboutmeCard/>},
