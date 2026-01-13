@@ -1,4 +1,5 @@
 import './aboutme_card.css'
+import profilePic from '../../assets/profile_pic.jpg';
 
 function AboutmeCard(){
 
@@ -21,7 +22,7 @@ function AboutmeCard(){
                         glad to get to get a chance to work on another project.
                     </p>
                 </div>
-                <img src="personal_webpage/assets/profile_pic.jpg" alt="a picture of the Author" className="aboutme_card_pic"/>
+                <img src={profilePic} alt="a picture of the Author" className="aboutme_card_pic"/>
             </div>
         </>
     )
