@@ -1,6 +1,11 @@
 .portfolio-container {
     overflow-y: auto;
     padding-bottom: 10rem;
+    place-items: center;
+    @media (max-width: 800px) {
+        width: 80vw;
+        padding-top: 2rem;
+    }
 }
 
 .cards-container {
@@ -9,3 +14,4 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+

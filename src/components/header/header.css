@@ -13,6 +13,10 @@
     justify-content: space-around;
 
     background: #e7e4dc;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .pageHeader_links {

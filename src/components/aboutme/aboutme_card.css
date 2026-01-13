@@ -6,6 +6,13 @@
     border-radius: 20px;
     padding: 2rem;
     width: 100%;
+
+    @media (max-width: 800px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+    }
 }
 
 .aboutme_card_pic {

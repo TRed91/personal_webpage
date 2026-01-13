@@ -27,6 +27,6 @@ export const cards: PortfolioCard[] = [
         description: "A very simple app to keep track of phases and points for a popular card game. Made in Godot and C#",
         img: "src/assets/PT_sc.png",
         github: "https://github.com/TRed91/phase10_tracker_godot",
-        link: ""
+        link: "https://apps.apple.com/at/app/phase-x-tracker/id6756629771"
     }
 ]
