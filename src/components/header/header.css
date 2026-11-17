@@ -31,6 +31,10 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.pageHeader_links li:hover, h2:hover{
+    cursor: pointer;
+}
+
 .highlight {
     background: linear-gradient(45deg, #0f67df, #e32323);
     -webkit-background-clip: text;
