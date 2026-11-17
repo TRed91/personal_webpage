@@ -1,5 +1,6 @@
 import type {PortfolioCardProps} from "../type_card.ts";
 import "./card.css"
+import githubIcon from '../../../assets/github-142-svgrepo-com.svg';
 
 function Card({card}: PortfolioCardProps) {
     return (
@@ -11,7 +12,7 @@ function Card({card}: PortfolioCardProps) {
                 <ul>
                     <li>
                         <a href={card.github} target="_blank">
-                            <img src="src/assets/github-142-svgrepo-com.svg" alt={`${card.title} github link`} className="icon" />
+                            <img src={githubIcon} alt={`${card.title} github link`} className="icon" />
                             Github
                         </a>
                     </li>
