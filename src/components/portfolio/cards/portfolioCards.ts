@@ -58,7 +58,7 @@ export const cardsGerman: PortfolioCard[] = [
     },
     {
         title: "Phase Tracker",
-        description: "Eine simple App um Punkte und Phasen für ein populäres Kartenspiel yu tracken. Erstellt in Godot and C#",
+        description: "Eine simple App um Punkte und Phasen für ein populäres Kartenspiel zu tracken. Erstellt in Godot und C#",
         img: phaseTrackerPic,
         github: "https://github.com/TRed91/phase10_tracker_godot",
         link: "https://apps.apple.com/at/app/phase-x-tracker/id6756629771"
