@@ -1,9 +1,16 @@
 import type {PortfolioCard} from "./type_card.ts";
 import Card from "./cards/card.tsx";
-import {cards} from "./cards/cards.ts";
+import {cardsGerman, cardsEnglish} from "./cards/portfolioCards.ts";
 import "./portfolio.css"
 
-function PortfolioPage() {
+interface PortfolioProps {
+    lang: string;
+}
+
+function PortfolioPage({lang} : PortfolioProps ) {
+
+    const cards: PortfolioCard[] = lang === "en" ? cardsEnglish : cardsGerman;
+
     return (
         <>
             <div className="portfolio-container">
@@ -11,7 +18,7 @@ function PortfolioPage() {
                 <div className="cards-container">
                     {cards.map((card: PortfolioCard) => {
                         return (
-                            <Card card={card}/>
+                            <Card card={card} key={card.title}/>
                         )
                     })}
                 </div>
