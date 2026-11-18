@@ -18,6 +18,8 @@ function AboutmeCard(){
                         <a href="https://neetcode.io" target={"_blank"}> NeetCode</a> and <a href="https://boot.dev"
                                                                                              target={"_blank"}>Boot.dev</a>
                         , as well as various books.<br/><br/>
+                        Since September 2026 I'm also visiting Corders.Bay in Vienna<br/>
+                        to get my Diploma as a Fullstack Developer <br/><br/>
                         Coding has quickly become a passion for me and I'm always<br/>
                         glad to get to get a chance to work on another project.
                     </p>

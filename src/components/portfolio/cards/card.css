@@ -1,23 +1,30 @@
 .card{
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 450px;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 
-    padding: 20px;
-
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 
-    background: #d2d2d2;
+    background: linear-gradient(45deg, #1764d2, #5f2d81);
 
     @media (max-width: 800px) {
         width: 70vw;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
     }
+}
+
+.card_main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 88%;
+
+    background-color: white;
 }
 
 .card ul {
